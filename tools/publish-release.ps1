@@ -1,20 +1,24 @@
 param(
     [Parameter(Mandatory=$true)][string]$Version,
-    [Parameter(Mandatory=$true)][string]$ZipPath,
+    [Parameter(Mandatory=$true)][string]$SetupExePath,
     [string]$Repository = "Matozanato/PlaylistForge-Downloads"
 )
 
+# 0.17.0-alpha72: switched from a raw ZIP to the Inno Setup installer
+# (PlaylistForge/installer/PlaylistForge.iss in the main repo) as the public release artifact -
+# no more "extract ZIP, keep libvlc folder beside the exe" instructions for testers.
 $ErrorActionPreference = "Stop"
-if (-not (Test-Path -LiteralPath $ZipPath)) { throw "ZIP not found: $ZipPath" }
+if (-not (Test-Path -LiteralPath $SetupExePath)) { throw "Setup exe not found: $SetupExePath" }
 $tag = "v$Version"
-$assetName = "PlaylistForge-win-x64.zip"
+$assetName = "PlaylistForge-Setup-$Version.exe"
 $tempAsset = Join-Path ([IO.Path]::GetTempPath()) $assetName
-Copy-Item -LiteralPath $ZipPath -Destination $tempAsset -Force
+Copy-Item -LiteralPath $SetupExePath -Destination $tempAsset -Force
 $hash = (Get-FileHash -Algorithm SHA256 -LiteralPath $tempAsset).Hash
 $notes = @"
 # PlaylistForge $Version
 
-Windows x64 public build. Extract the complete ZIP before running PlaylistForge.exe.
+Windows x64 public build. Download and run ``$assetName`` - no manual ZIP extraction needed.
+Installs per-user (no admin/UAC prompt) with Start Menu / desktop shortcuts and a real uninstaller.
 
 SHA-256: ``$hash``
 

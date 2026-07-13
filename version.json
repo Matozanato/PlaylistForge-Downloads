@@ -1,10 +1,11 @@
 {
-  "version": "0.17.0-alpha70",
-  "tag": "v0.17.0-alpha70",
+  "version": "0.17.0-alpha72",
+  "tag": "v0.17.0-alpha72",
   "channel": "public-alpha",
   "platform": "Windows x64",
-  "asset": "PlaylistForge-win-x64.zip",
-  "sizeBytes": 154724100,
-  "sha256": "C460C877764D52CB83435F75E23B639BDE6B73590B83A03558DB951BD6847B2F",
+  "asset": "PlaylistForge-Setup-0.17.0-alpha72.exe",
+  "installerType": "InnoSetup",
+  "sizeBytes": 105748865,
+  "sha256": "9E6305C3BDC6B0FC3C3CD2E8AFD0B17BCB4A9ECA40F014515B6799A72ED49FB7",
   "published": "2026-07-13"
 }
