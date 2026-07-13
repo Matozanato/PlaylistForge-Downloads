@@ -9,7 +9,7 @@ https://github.com/Matozanato/PlaylistForge-Downloads/releases
 Current public beta checksum:
 
 ```text
-SHA-256  86A1A1CF4713845F4219095D1F91EEE362F0468324051AD1F85525DCE1B321D4  PlaylistForge-Setup-1.0.0.exe
+SHA-256  020FD56B6701FCDEF6931A9ECCDAF0E912CC6B9740B00F4D953AAA09663C0263  PlaylistForge-Setup-1.0.1.exe
 ```
 
 Public beta binaries are not code-signed yet. Windows SmartScreen may therefore show an “unknown publisher” warning. Verify the download URL and SHA-256 before running the package.
