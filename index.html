@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PlaylistForge is a free Windows playlist editor and IPTV player with EPG tools, libraries, cloud sync and an embedded Watch mode.">
+  <meta name="theme-color" content="#0a0b0f">
+  <title>PlaylistForge — Build better playlists. Watch them too.</title>
+  <link rel="icon" href="assets/app.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top"><img src="assets/app.ico" alt=""><span>PlaylistForge</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#install">Install</a>
+      <a href="https://github.com/Matozanato/PlaylistForge-Downloads/issues">Report a bug</a>
+      <a class="nav-download" href="https://github.com/Matozanato/PlaylistForge-Downloads/releases/download/v0.17.0-alpha70/PlaylistForge-win-x64.zip">Download</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> Public alpha · v0.17.0-alpha70</div>
+        <h1>Build better playlists.<br><span>Watch them too.</span></h1>
+        <p class="lead">A free, privacy-first Windows app for organizing M3U and Xtream playlists, matching EPG data, managing logos, publishing updates and watching Live TV, movies and series.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/Matozanato/PlaylistForge-Downloads/releases/download/v0.17.0-alpha70/PlaylistForge-win-x64.zip">Download for Windows</a>
+          <a class="button secondary" href="https://github.com/Matozanato/PlaylistForge-Downloads/releases/tag/v0.17.0-alpha70">Release notes</a>
+        </div>
+        <p class="requirements">Windows 10/11 x64 · 148 MB ZIP · No .NET installation required</p>
+      </div>
+
+      <div class="app-preview" aria-label="Stylized PlaylistForge Watch mode preview">
+        <div class="window-bar"><span></span><span></span><span></span><strong>PlaylistForge — Watch</strong></div>
+        <div class="preview-body">
+          <aside>
+            <b>WATCH</b>
+            <a class="active">Live TV</a><a>Movies</a><a>TV Shows</a>
+            <small>GROUPS</small>
+            <a>Entertainment</a><a>Sports</a><a>Documentary</a>
+          </aside>
+          <div class="library">
+            <div class="library-head"><div><b>Movies</b><small>Recently added</small></div><span>Search library</span></div>
+            <div class="poster-grid">
+              <div class="poster p1"><i></i><b>Night Signal</b><small>2026 · Thriller</small></div>
+              <div class="poster p2"><i></i><b>Deep North</b><small>2025 · Drama</small></div>
+              <div class="poster p3"><i></i><b>Last Horizon</b><small>2026 · Sci-fi</small></div>
+              <div class="poster p4"><i></i><b>Quiet Roads</b><small>2024 · Mystery</small></div>
+            </div>
+            <div class="now-playing"><span class="play">▶</span><div><b>Ready to watch</b><small>Posters, seasons, episodes and subtitles</small></div><em>1080p · 50 fps</em></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><b>Freeware</b><span>All features included</span></div>
+      <div><b>Privacy-first</b><span>No telemetry or hosted account</span></div>
+      <div><b>Self-contained</b><span>No .NET setup required</span></div>
+      <div><b>Built-in player</b><span>Powered by LibVLC</span></div>
+    </section>
+
+    <section id="features" class="section shell">
+      <div class="section-heading"><span>One toolkit</span><h2>From provider feed to a clean, watchable library.</h2><p>PlaylistForge keeps editing, EPG, publishing and playback together without sending your playlist credentials to a hosted editor.</p></div>
+      <div class="feature-grid">
+        <article><div class="icon">≡</div><h3>Playlist editor</h3><p>Rename, reorder, regroup, hide and lock channels while preserving your changes across provider refreshes.</p></article>
+        <article><div class="icon">EPG</div><h3>EPG matching</h3><p>Import XMLTV guides, auto-match channels, preview uncertain results and keep now/next programme data close by.</p></article>
+        <article><div class="icon">▶</div><h3>Watch mode</h3><p>Switch between saved projects, browse channel groups and play Live TV directly with a television-style OSD.</p></article>
+        <article><div class="icon">▦</div><h3>Movies & series</h3><p>Separate poster libraries, seasons, episode history, seek controls, audio tracks and integrated subtitle search.</p></article>
+        <article><div class="icon">↻</div><h3>Resilient sync</h3><p>Refresh large provider lists without losing locked edits, hidden groups or carefully arranged channel order.</p></article>
+        <article><div class="icon">☁</div><h3>Your own cloud</h3><p>Publish through your Dropbox and GitHub credentials. PlaylistForge itself does not operate a credential broker.</p></article>
+      </div>
+    </section>
+
+    <section class="section dark-band">
+      <div class="shell privacy-grid">
+        <div><span class="section-kicker">Local by design</span><h2>Your playlists and credentials stay under your control.</h2></div>
+        <div class="privacy-points"><p><b>No PlaylistForge account.</b> The app has no hosted login or telemetry service.</p><p><b>Encrypted local settings.</b> Saved credentials are protected with Windows DPAPI for the current user.</p><p><b>Your providers.</b> Network requests go only to sources and optional services you configure.</p></div>
+      </div>
+    </section>
+
+    <section id="install" class="section shell install">
+      <div class="section-heading"><span>Get started</span><h2>Three steps. No installer.</h2></div>
+      <div class="steps">
+        <article><b>1</b><h3>Download</h3><p>Get the official Windows x64 ZIP from GitHub Releases.</p></article>
+        <article><b>2</b><h3>Extract everything</h3><p>Keep <code>PlaylistForge.exe</code> beside the included <code>libvlc</code> folder.</p></article>
+        <article><b>3</b><h3>Run PlaylistForge</h3><p>Windows SmartScreen may warn because this public alpha is not code-signed yet.</p></article>
+      </div>
+      <div class="checksum"><div><b>SHA-256</b><code id="sha">C460C877764D52CB83435F75E23B639BDE6B73590B83A03558DB951BD6847B2F</code></div><button id="copy-sha" type="button">Copy</button></div>
+    </section>
+
+    <section class="section shell beta-card">
+      <div><span>Public alpha</span><h2>Help shape PlaylistForge.</h2><p>This build is ready for hands-on testing, but it is not a final 1.0 release. Please report reproducible bugs without posting playlist URLs, usernames, passwords or API keys.</p></div>
+      <div class="beta-actions"><a class="button primary" href="https://github.com/Matozanato/PlaylistForge-Downloads/issues/new?template=bug_report.yml">Report a bug</a><a class="button secondary" href="https://ko-fi.com/mata28">Support on Ko-fi</a></div>
+    </section>
+  </main>
+
+  <footer class="shell">
+    <div class="brand"><img src="assets/app.ico" alt=""><span>PlaylistForge</span></div>
+    <p>Freeware supported by optional donations. PlaylistForge does not provide channels, subscriptions or media content.</p>
+    <div><a href="PRIVACY.md">Privacy</a><a href="LICENSE.md">License</a><a href="THIRD_PARTY_NOTICES.md">Third-party notices</a><a href="SECURITY.md">Security</a></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

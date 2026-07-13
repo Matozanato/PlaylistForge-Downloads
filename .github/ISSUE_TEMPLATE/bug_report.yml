@@ -1,0 +1,77 @@
+name: Bug report
+description: Report a reproducible PlaylistForge problem
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing PlaylistForge. **Never post playlist URLs, provider hostnames, usernames, passwords, API keys, tokens or unredacted project files.**
+  - type: input
+    id: version
+    attributes:
+      label: PlaylistForge version
+      description: Copy the build shown in the window title.
+      placeholder: 0.17.0-alpha70
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Startup or shutdown
+        - Editor
+        - EPG or logos
+        - Watch — Live TV
+        - Watch — Movies
+        - Watch — TV Shows
+        - Playback, audio or subtitles
+        - Publishing or cloud sync
+        - Settings
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest safe, redacted sequence that reproduces the problem.
+      placeholder: |
+        1. Open...
+        2. Select...
+        3. Click...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Include the exact error text if one appeared.
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: You may attach screenshots only after checking that they contain no private source or account information.
+  - type: checkboxes
+    id: redacted
+    attributes:
+      label: Privacy check
+      options:
+        - label: I confirmed that this report contains no credentials, tokens, API keys, private playlist URLs or unredacted project files.
+          required: true
