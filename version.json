@@ -1,10 +1,10 @@
 {
-  "version": "0.17.0-alpha70",
-  "tag": "v0.17.0-alpha70",
-  "channel": "public-alpha",
+  "version": "1.0.6",
+  "tag": "v1.0.6",
+  "channel": "public-beta",
   "platform": "Windows x64",
-  "asset": "PlaylistForge-win-x64.zip",
-  "sizeBytes": 154724100,
-  "sha256": "C460C877764D52CB83435F75E23B639BDE6B73590B83A03558DB951BD6847B2F",
-  "published": "2026-07-13"
+  "asset": "PlaylistForge-Setup-1.0.6.exe",
+  "sizeBytes": 108718098,
+  "sha256": "969E9C240EF90AB1BC4FE3DD2DF77BD552FE58937E41F276845CADE291AD5228",
+  "published": "2026-07-15"
 }
