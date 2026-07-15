@@ -12,6 +12,9 @@
   same as before), Auto-show, or Ask me each time a brand-new group shows up.
 - **Cleanup:** locking an old "<group> (new)" duplicate (left over from before this fix) now merges
   it back into the real group and removes the duplicate.
+- **Fix (2026-07-15, same-day update): "View Dropbox links..." only ever showed one published
+  project.** If you publish more than one project to Dropbox, the list dialog now correctly shows
+  all of them, not just whichever one happened to sort last.
 
 ## Important: if you use Cloud sync
 
@@ -36,7 +39,7 @@ PlaylistForge does not provide channels, playlists, subscriptions or media conte
 ## Verify the download
 
 ```text
-SHA-256  969E9C240EF90AB1BC4FE3DD2DF77BD552FE58937E41F276845CADE291AD5228  PlaylistForge-Setup-1.0.6.exe
+SHA-256  5B5A870D899EA1DCC4895E3D42D4B5BBC63C7A717A4682356AFA131F8F3C039B  PlaylistForge-Setup-1.0.6.exe
 ```
 
 ## Feedback
