@@ -4,6 +4,7 @@
   "channel": "public-beta",
   "platform": "Windows x64",
   "asset": "PlaylistForge-Setup-1.0.6.exe",
+  "installerType": "InnoSetup",
   "sizeBytes": 108718098,
   "sha256": "969E9C240EF90AB1BC4FE3DD2DF77BD552FE58937E41F276845CADE291AD5228",
   "published": "2026-07-15"
