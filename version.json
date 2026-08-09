@@ -1,11 +1,11 @@
 {
-  "version": "1.0.6",
-  "tag": "v1.0.6",
+  "version": "1.0.9",
+  "tag": "v1.0.9",
   "channel": "public-beta",
   "platform": "Windows x64",
-  "asset": "PlaylistForge-Setup-1.0.6.exe",
+  "asset": "PlaylistForge-Setup-1.0.9.exe",
   "installerType": "InnoSetup",
-  "sizeBytes": 108714795,
-  "sha256": "5B5A870D899EA1DCC4895E3D42D4B5BBC63C7A717A4682356AFA131F8F3C039B",
-  "published": "2026-07-15"
+  "sizeBytes": 108726281,
+  "sha256": "E3E237D8AC09251B326DE1AEADC7DDD615D3C370541ABDA231CEA1792A0FCE53",
+  "published": "2026-08-09"
 }
