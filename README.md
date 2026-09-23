@@ -6,13 +6,13 @@ PlaylistForge is a free, privacy-first Windows application for editing M3U/Xtrea
 
 ## Download
 
-**Current public beta:** 1.0.11
+**Current public beta:** 1.2.0
 
-[Download PlaylistForge for Windows x64](https://github.com/Matozanato/PlaylistForge-Downloads/releases/download/v1.0.11/PlaylistForge-Setup-1.0.11.exe)
+[Download PlaylistForge for Windows x64](https://github.com/Matozanato/PlaylistForge-Downloads/releases/download/v1.2.0/PlaylistForge-Setup-1.2.0.exe)
 
 - Windows 10/11 x64
 - Self-contained; no separate .NET installation required
-- Real installer (`PlaylistForge-Setup-1.0.11.exe`) — just run it, no manual ZIP extraction
+- Real installer (`PlaylistForge-Setup-1.2.0.exe`) — just run it, no manual ZIP extraction
 - Installs per-user (no admin/UAC prompt) and adds Start Menu / desktop shortcuts
 - Running the installer for a newer version upgrades an existing install in place — no need to
   uninstall first
@@ -21,7 +21,7 @@ PlaylistForge is a free, privacy-first Windows application for editing M3U/Xtrea
 SHA-256:
 
 ```text
-A44D239CC03E640882A0C7DDC7000A7B79F57218335E40875723E358B8344604
+86BC06CD71481C314EA0D760E5A0D63725D5142B8176773028F309A4A43609B7
 ```
 
 ## Website
